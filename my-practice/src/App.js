@@ -1,11 +1,12 @@
 import './App.css';
+import Header from './header/header';
+import Home from './home/home';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
-      <p>This is my first React app!</p>
-      <p> hello vidhya</p>
+      <Header />
+      <Home />
     </div>
   );
 }
